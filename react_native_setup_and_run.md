@@ -1,4 +1,4 @@
-A)<H2> Before we go - install Java, Node js and python, from their respective websites</H2> 
+<H4>A) Before we go - install Java, Node js and python, from their respective websites</H4> 
 
 1)Open command promt as administrator
 check for the node js versions
@@ -37,7 +37,7 @@ check for the node js versions
 in developer menu there is reload option that we can select 
 13) Now we are ready to do coding for react native, to again start this project use same step as strating emulator, using commant like 'react-native run-android' and refress or other options 
 
-B)<H2>Now Install Atom and open the root module into atom (Atom is Editor for React Native), for managing the project configuration/syntax we uses linter and ES Linter forn the error/syntax/exception handling</H2> 
+<br/><H4>B)Now Install Atom and open the root module into atom (Atom is Editor for React Native), for managing the project configuration/syntax we uses linter and ES Linter forn the error/syntax/exception handling</H4> 
 1) Now install Linter into atom then ESLint (There are many linter for managing error/eception for javascript)
 	-- Open Atom->Packages->Setting View->Open->install->serach for linter-eslint
 		-- select lint   -> click on install
