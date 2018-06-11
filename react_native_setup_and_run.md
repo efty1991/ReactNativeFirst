@@ -1,4 +1,4 @@
-<H4>A) Before we go - install Java, Node js and python, from their respective websites</H4> 
+<H3>A) Before we go - install Java, Node js and python, from their respective websites</H3> 
 
 1)Open command promt as administrator
 check for the node js versions
@@ -37,12 +37,35 @@ check for the node js versions
 in developer menu there is reload option that we can select 
 13) Now we are ready to do coding for react native, to again start this project use same step as strating emulator, using commant like 'react-native run-android' and refress or other options 
 
-<br/><H4>B)Now Install Atom and open the root module into atom (Atom is Editor for React Native), for managing the project configuration/syntax we uses linter and ES Linter forn the error/syntax/exception handling</H4> 
+<br/><H3>B)Now Install Atom and open the root module into atom (Atom is Editor for React Native), for managing the project configuration/syntax we uses linter and ES Linter forn the error/syntax/exception handling</H3> 
 1) Now install Linter into atom then ESLint (There are many linter for managing error/eception for javascript)
 	-- Open Atom->Packages->Setting View->Open->install->serach for linter-eslint
 		-- select lint   -> click on install
 		-- select linter-eslint -> click on install
 		
-2) After finishing installation of the above, we will install a rules for eslint configuration, we can see the differnce by below image for the eslint syntax and config file.
-<br/><b>npm install --save-dev eslint-config-rallycoding</b>
+2) After finishing installation of the above, we will install a rules for eslint configuration, we can see the differnce by below image for the eslint syntax and config file. just install as globally or 
+
+<br/><b>npx install-peerdeps --dev eslint-config-airbnb</b><br/>
+and these lines into your .eslintrc file
+<br/></br><i>
+```
+{
+  "extends": "airbnb",
+  "rules": {
+    "strict": [0, "global"],
+    "func-names": 0,
+    "object-shorthand": 0,
+    "consistent-return": 0,
+    "prefer-template": 0,
+    "comma-dangle": ["error", {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "never"
+    }]
+  }
+}
+```
+</i>
 
