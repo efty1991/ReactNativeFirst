@@ -46,5 +46,3 @@ in developer menu there is reload option that we can select
 2) After finishing installation of the above, we will install a rules for eslint configuration, we can see the differnce by below image for the eslint syntax and config file.
 <br/><b>npm install --save-dev eslint-config-rallycoding</b>
 
-3) For project related setup and configuration create a new file in root directory .eslintrc
-	-- 
