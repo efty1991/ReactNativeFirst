@@ -41,30 +41,10 @@ B)<H2>Now Install Atom and open the root module into atom (Atom is Editor for Re
 1) Now install Linter into atom then ESLint (There are many linter for managing error/eception for javascript)
 	-- Open Atom->Packages->Setting View->Open->install->serach for linter-eslint
 		-- select lint   -> click on install
-		-- select eslint -> click on install
+		-- select linter-eslint -> click on install
 		
 2) After finishing installation of the above, we will install a rules for eslint configuration, we can see the differnce by below image for the eslint syntax and config file.
 <br/><b>npm install --save-dev eslint-config-rallycoding</b>
 
 3) For project related setup and configuration create a new file in root directory .eslintrc
 	-- 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-<h2> C) React Native Guide--first install chocolaty <h2>
-	@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
-	
-	
-using chocolaty command install node.js, python2 and JDK
-	<br/><b>choco install -y nodejs.install python2 jdk10</b>
