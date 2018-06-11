@@ -46,9 +46,10 @@ in developer menu there is reload option that we can select
 2) After finishing installation of the above, we will install a rules for eslint configuration, we can see the differnce by below image for the eslint syntax and config file. just install as globally or 
 
 <br/><b>npx install-peerdeps --dev eslint-config-airbnb</b><br/>
-and these lines into your .eslintrc file
-<br/></br><i>
+and these lines into your(dot eslintrc) .eslintrc file
+<br/></br>
 ```
+
 {
   "extends": "airbnb",
   "rules": {
@@ -66,6 +67,6 @@ and these lines into your .eslintrc file
     }]
   }
 }
+
 ```
-</i>
 
